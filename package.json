@@ -1,0 +1,19 @@
+{
+  "name": "transferwise",
+  "version": "1.0.0",
+  "description": "Transferwise UI Clone",
+  "main": "index.js",
+  "repository": "https://github.com/francisudeji/transferwise-ui-clone",
+  "author": "francisudeji <francis.udejiofficial@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "tailwindcss": "^1.1.2",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {}
+}
