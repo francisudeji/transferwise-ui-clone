@@ -222,67 +222,63 @@
         </div>
       </main>
       <section class="exchange-rate relative">
-        <div class="container mx-auto lg:px-8 relative">
+        <div class="container mx-auto lg:px-8 -mt-32">
           <div
-            class="px-10 w-full  px-10 mx-auto"
-            style="left: 0; top: -100px;"
+            class="px-10 bg-white py-5 mx-20 shadow-2xl rounded-sm flex flex-col"
           >
-            <div class="p-10">
-              <div
-                class="px-10 bg-white px-10 py-5 shadow-2xl rounded-sm flex flex-col"
-              >
-                <div class="flex justify-between items-end">
-                  <div>
-                    <h2 class="text-blue-600 text-xl font-semibold">
-                      We use the real exchange rate
-                    </h2>
-                    <p class="text-blue-600 text-sm block pt-2">
-                      As of 1 min ago, 1 GBP → 436.26 NGN
-                    </p>
-                  </div>
-                  <p class="text-blue-600 text-sm block">
-                    Mid market rate
-                  </p>
-                </div>
-                <div>
-                  <canvas
-                    height="195"
-                    width="587"
-                    class="chartjs-render-monitor"
-                    style="display: block; width: 587px; height: 195px;"
-                  ></canvas>
-                </div>
-
-                <div class="block text-center">
-                  <button
-                    class="bg-transparent border border-blue-600 px-6 py-2 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold"
-                  >
-                    Track this exchange rate
-                  </button>
-                </div>
-              </div>
-
-              <div class="flex justify-between align-center py-3 my-10 px-5">
-                <h2 class="text-black text-2xl w-2/5 font-bold">
-                  No hidden fees.
+            <div class="flex justify-between items-end">
+              <div>
+                <h2 class="text-blue-600 text-xl font-semibold">
+                  We use the real exchange rate
                 </h2>
-                <p class="text-lg text-gray-600">
-                  We’re on a mission to bring transparency to finance. We charge
-                  as little as possible, and we always show you upfront. No
-                  hidden fees. No bad exchange rates. No surprises.
+                <p class="text-blue-600 text-sm block pt-2">
+                  As of 1 min ago, 1 GBP → 436.26 NGN
                 </p>
               </div>
+              <p class="text-blue-600 text-sm block">
+                Mid market rate
+              </p>
             </div>
+            <div>
+              <canvas
+                height="195"
+                width="587"
+                class="chartjs-render-monitor"
+                style="display: block; width: 587px; height: 195px;"
+              ></canvas>
+            </div>
+
+            <div class="block text-center">
+              <button
+                class="bg-transparent border border-blue-600 px-6 py-2 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold"
+              >
+                Track this exchange rate
+              </button>
+            </div>
+          </div>
+
+          <div class="flex justify-between align-center py-3 my-10 px-5 mx-20">
+            <h2 class="text-black text-2xl w-2/5 font-bold">
+              No hidden fees.
+            </h2>
+            <p class="text-lg text-gray-600">
+              We’re on a mission to bring transparency to finance. We charge as
+              little as possible, and we always show you upfront. No hidden
+              fees. No bad exchange rates. No surprises.
+            </p>
           </div>
         </div>
       </section>
-      <section class="exchange-rate bg-gray-400 relative py-5">
-        <div class="container mx-auto lg:px-8 relative py-10">
-          <h1 class="text-4xl text-blue-600 text-center font-bold mb-6">
+      <section class="exchange-rate bg-gray-200 py-5">
+        <div class="container mx-auto lg:px-8 py-10">
+          <h1 class="text-4xl text-blue-600 text-center font-bold mb-10">
             How to send money from GBP to NGN
           </h1>
-          <div class="flex flex-wrap justify-between">
-            <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
+          <div class="flex flex-wrap justify-between mt-4">
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
               <img src="./assets/728c89ac61a7159f3f91f5ccf1e7045c.svg" alt="" />
               <p class="font-semibold text-lg text-blue-600">
                 1. Register for free.
@@ -292,51 +288,113 @@
                 address, or a Google or Facebook account.
               </p>
             </div>
-        <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
-          <img src="./assets/72f2c6bd1a65c2d94ab3167c67001e74.svg" alt="" />
-          <p class="font-semibold text-lg text-blue-600">
-            2. Choose an amount to send.
-          </p>
-          <p class="text-gray-600">
-          Tell us how much you want to send. We’ll show you our fees upfront, and tell you when your money should arrive.
-          </p>
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
+              <img src="./assets/72f2c6bd1a65c2d94ab3167c67001e74.svg" alt="" />
+              <p class="font-semibold text-lg text-blue-600">
+                2. Choose an amount to send.
+              </p>
+              <p class="text-gray-600">
+                Tell us how much you want to send. We’ll show you our fees
+                upfront, and tell you when your money should arrive.
+              </p>
+            </div>
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
+              <img src="./assets/a7d79ef245568367f75a6131648cf551.svg" alt="" />
+              <p class="font-semibold text-lg text-blue-600">
+                3. Add recipient’s bank details.
+              </p>
+              <p class="text-gray-600">
+                Fill in the details of your recipient’s bank account. If you
+                don’t know their details, we can request them for you.
+              </p>
+            </div>
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
+              <img src="./assets/78e70ca2021732504a494a8effabe9a5.svg" alt="" />
+              <p class="font-semibold text-lg text-blue-600">
+                4. Verify your identity.
+              </p>
+              <p class="text-gray-600">
+                For some currencies, or for large transfers, we need a photo of
+                your ID. This helps us keep your money safe.
+              </p>
+            </div>
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
+              <img src="./assets/2cbd9336169aa0567fced0eaa256b944.svg" alt="" />
+              <p class="font-semibold text-lg text-blue-600">
+                5. Pay for your transfer.
+              </p>
+              <p class="text-gray-600">
+                Send your money with a bank transfer, or a debit or credit card.
+              </p>
+            </div>
+            <div
+              style="width: 31%"
+              class="bg-white p-6 text-center mr-6 mb-6 rounded-sm"
+            >
+              <img src="./assets/c2c11fa581a843ea425eed050d093a40.svg" alt="" />
+              <p class="font-semibold text-lg text-blue-600">
+                6. That's it
+              </p>
+              <p class="text-gray-600">
+                We’ll handle the rest. You can track your transfer in your
+                account, and we'll tell your recipient it's coming.
+              </p>
+            </div>
+          </div>
         </div>
-        <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
-          <img src="./assets/a7d79ef245568367f75a6131648cf551.svg" alt="" />
-          <p class="font-semibold text-lg text-blue-600">
-            3. Add recipient’s bank details.
-          </p>
-          <p class="text-gray-600">
-            Fill in the details of your recipient’s bank account. If you don’t know their details, we can request them for you.
-          </p>
-        </div>
-        <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
-          <img src="./assets/78e70ca2021732504a494a8effabe9a5.svg" alt="" />
-          <p class="font-semibold text-lg text-blue-600">
-            4. Verify your identity.
-          </p>
-          <p class="text-gray-600">
-            For some currencies, or for large transfers, we need a photo of your ID. This helps us keep your money safe.
-          </p>
-        </div>
-        <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
-          <img src="./assets/2cbd9336169aa0567fced0eaa256b944.svg" alt="" />
-          <p class="font-semibold text-lg text-blue-600">
-            5. Pay for your transfer.
-          </p>
-          <p class="text-gray-600">
-            Send your money with a bank transfer, or a debit or credit card.
-          </p>
-        </div>
-        <div style="width: 31%" class="bg-white p-6 text-center mr-6 mb-6 rounded-sm">
-          <img src="./assets/c2c11fa581a843ea425eed050d093a40.svg" alt="" />
-          <p class="font-semibold text-lg text-blue-600">
-            6. That's it
-          </p>
-          <p class="text-gray-600">
-            We’ll handle the rest. You can track your transfer in your account, and we'll tell your recipient it's coming.
-          </p>
-        </div>
+      </section>
+      <section class="exchange-rate py-5">
+        <div class="container mx-auto lg:px-8 py-16 flex justify-between">
+          <div class="w-1/3">
+            <h2 class="text-4xl text-blue-600 font-bold mb-2">
+              Global support in a range of languages<span class="text-blue-400"
+                >.</span
+              >
+            </h2>
+            <p class="text-gray-600 mb-6">
+              We don’t do complicated, automated systems. We have offices around
+              the world, full of people ready to help you. Whenever you need it.
+            </p>
+
+            <a
+              href="#"
+              class="bg-transparent border border-blue-600 px-8 py-3 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold"
+            >
+              Find out more
+            </a>
+          </div>
+
+          <div class="w-2/3 mb-32 relative flex justify-center items-center">
+            <svg
+              class="absolute mt-40"
+              fill="#f00"
+              class="tw-decorations-circle customer-support-circle"
+              viewBox="0 0 160 160"
+              xmlns="http://www.w3.org/2000/svg"
+              width="160"
+              height="160"
+            >
+              <circle cx="80" cy="80" r="80"></circle>
+            </svg>
+            <img class="z-10" width="450" src="./assets/women.jpg" alt="" />
+            <img
+              class="absolute z-10 mt-48 ml-40"
+              width="320"
+              src="./assets/city.jpg"
+              alt=""
+            />
           </div>
         </div>
       </section>
