@@ -3,6 +3,10 @@ body {
   height: 100%;
   padding: 0;
 }
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 
 .top-header {
   position: absolute;
@@ -15,9 +19,24 @@ body {
 
 .background-image-cover {
   position: relative;
-  height: 750px;
   background-image: url(assets/bg.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
+  background-position: 100% 100%;
+}
+
+.wrapper {
+  position: relative;
+  background-image: url(assets/0f7f92ce21f405f94b782273ee49f50f.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropdown {
+  display: none;
+}
+
+.nav-link:hover .dropdown {
+  display: block;
+  z-index: 10;
 }
